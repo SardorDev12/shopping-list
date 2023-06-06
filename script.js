@@ -62,7 +62,7 @@ function addItem(e) {
   } else if (value && editFlag) {
     editElement.innerHTML = value;
     // displayAlert("Item added to the list!", "success");
-    displayAlert(`${value}`, "success");
+    displayAlert(`Item edited`, "success");
     editLocalStorage(editID, value);
     defaultState();
   } else {
