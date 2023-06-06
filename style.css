@@ -9,7 +9,7 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: rgb(59, 54, 44);
+  background-color: rgb(85, 52, 43);
 }
 
 button {
@@ -27,7 +27,7 @@ button {
   border-radius: 5px;
   padding: 1rem 3rem;
   text-align: center;
-  background-color: rgb(189, 182, 179);
+  background-color: rgb(199, 143, 119);
   box-shadow: 1px 1px 5px black;
 }
 
