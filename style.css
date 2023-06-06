@@ -34,7 +34,21 @@ button {
 .alert {
   margin: 1rem 0;
   color: wheat;
-  display: none;
+  visibility: hidden;
+}
+
+.alert-danger {
+  color: darkred;
+  background-color: rgb(255, 178, 142);
+  border-radius: 5px;
+  visibility: visible;
+}
+
+.alert-success {
+  color: #004600;
+  background-color: lightgreen;
+  border-radius: 5px;
+  visibility: visible;
 }
 
 .title {
@@ -62,27 +76,37 @@ button {
 }
 
 .add-btn {
-  background-color: rgb(79, 168, 79);
+  background-color: #4fa84f;
   color: rgb(11, 63, 4);
   border-radius: 0 5px 5px 0;
   flex: 0 0 5rem;
   font-size: 1rem;
 }
 
-.shopping-list {
+.add-btn:hover {
+  background-color: #379c37;
+}
+
+.items-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
+  visibility: hidden;
 }
 
-.list-items {
+.show-container {
+  visibility: visible;
+}
+
+.item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 1rem 0;
 }
 
-.list-item {
+.item-title {
   text-transform: capitalize;
   color: aliceblue;
   font-weight: 600;
@@ -109,9 +133,13 @@ button {
 }
 
 .clear-btn {
-  background-color: rgb(255, 155, 108);
+  background-color: #ff9b6c;
   margin-top: 1rem;
   color: rgb(85, 11, 11);
+}
+
+.clear-btn:hover {
+  background-color: #fc8852;
 }
 
 /* END: main styles */
@@ -120,6 +148,12 @@ button {
 @media screen and (max-width: 768px) {
   .section-center {
     width: 70vw;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .section-center {
+    width: 90vw;
   }
 }
 
