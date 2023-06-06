@@ -1,0 +1,117 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: orange;
+}
+
+button {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+/* main styles */
+.section-center {
+  width: 40vw;
+  margin: 5rem auto 0;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  text-align: center;
+  background-color: orangered;
+  box-shadow: 1px 1px 5px black;
+}
+
+.alert {
+  margin: 1rem 0;
+  color: wheat;
+  display: none;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 2rem 0;
+  color: bisque;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.shopping-input {
+  padding: 0.5rem 0 0.5rem 0.3rem;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  background-color: rgb(255, 224, 166);
+  flex: 1 0 auto;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.add-btn {
+  background-color: rgb(79, 168, 79);
+  color: rgb(11, 63, 4);
+  border-radius: 0 5px 5px 0;
+  flex: 0 0 5rem;
+  font-size: 1rem;
+}
+
+.shopping-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item {
+  text-transform: capitalize;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.1rem;
+}
+
+.btn-container > button {
+  padding: 0.2rem;
+  font-weight: 100;
+  background-color: antiquewhite;
+}
+
+.edit-btn {
+  color: royalblue;
+}
+
+.delete-btn {
+  color: red;
+}
+
+.clear-btn {
+  background-color: rgb(255, 155, 108);
+  margin-top: 1rem;
+  color: rgb(85, 11, 11);
+}
+
+/* END: main styles */

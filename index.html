@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="section-center">
+      <form class="shopping-form">
+        <p class="alert">Please, enter a value!</p>
+        <div class="title">Shopping List</div>
+        <div class="form-control">
+          <input
+            type="text"
+            class="shopping-input"
+            placeholder="masalan: kartoshka, piyoz"
+          />
+          <button type="submit" class="add-btn">add</button>
+        </div>
+      </form>
+      <div class="shopping-list">
+        <div class="list-items">
+          <p class="list-item">item</p>
+          <div class="btn-container">
+            <button type="button" class="edit-btn">edit</button>
+            <button type="button" class="delete-btn">delete</button>
+          </div>
+        </div>
+        <div class="clear">
+          <button type="button" class="clear-btn">clear</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
