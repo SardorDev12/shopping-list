@@ -115,3 +115,26 @@ button {
 }
 
 /* END: main styles */
+
+/* Media */
+@media screen and (max-width: 768px) {
+  .section-center {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-center {
+    width: 90vw;
+    padding: 1rem;
+  }
+
+  .shopping-input::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}
+/* End: Media */
